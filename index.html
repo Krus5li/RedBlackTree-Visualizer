@@ -10,14 +10,21 @@
     <link rel = "stylesheet" href = "RBT.css" type = "text/css">
 </head>
 
-<body onload = "start()">
-    <h1 class = "title-section">Red Black Tree Visualizer</h1>
-    <input type = "number" name ="nodevalue" id = "nodevalue">
-    <br>
-    <button onclick = "addNode()">Add Node</button>
-    <button onclick = "deleteBoard()">Clear the Canvas</button>
-    <div id = "rbtzone">
-        <svg></svg>
+<body onload = "start()">     
+    <div class="topnav">
+        <a href="#home"><h2>RedBlackTree Visualizer</h2></a>
+        <a><h4>Change Algorithm</h4></a>       
+        <div class = "holders"><button onclick = "deleteBoard()">Clear the Canvas</button></div>
+        <div class = "holders"><button onclick = "addNode()">Add Node</button></div>
+        <div class = "holders"><input type = "number" name ="nodevalue" id = "nodevalue" placeholder="Input here"></div>       
+    </div> 
+    <div id ='information'>
+        <h3>How to Use:</h3>
+        <p>Simply add an integer value of the node into the input field, then click "Add Node"<br>
+            to insert the node into the tree. This app is intended for PC use, additionally the "Change Algorithm" feature is not working yet.</p>
+    </div>
+    <div id = "redblackzone">
+        <div id = "rbtzone"></div>
     </div>
 </body>
 </html>
