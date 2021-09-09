@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Black Tree Visualizer</title>
+    <script src = "./algorithms/redblacktree.js"></script>
+    <script src = "script.js"></script>
+    <link rel = "stylesheet" href = "RBT.css" type = "text/css">
+</head>
+
+<body onload = "start()">
+    <h1 class = "title-section">Red Black Tree Visualizer</h1>
+    <input type = "number" name ="nodevalue" id = "nodevalue">
+    <br>
+    <button onclick = "addNode()">Add Node</button>
+    <button onclick = "deleteBoard()">Clear the Canvas</button>
+    <div id = "rbtzone">
+        <svg></svg>
+    </div>
+</body>
+</html>

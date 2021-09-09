@@ -1,0 +1,37 @@
+.title-section {
+    text-align: center;
+    height: 20%;
+    background-color: bisque;
+}
+#rbtzone {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redNode {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    border: solid black 1px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    z-index: 2;
+}
+.blackNode {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 50%;
+    border: solid black 1px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    z-index: 2;
+}
